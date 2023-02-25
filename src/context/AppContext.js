@@ -120,3 +120,5 @@ export const AppProvider = (props) => {
         </AppContext.Provider>
     );
 };
+
+export const useAppContext = () => React.useContext(AppContext);
